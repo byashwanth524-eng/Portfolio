@@ -1,0 +1,15 @@
+
+h1{
+    color: red;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    width: 170px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    border: dashed 10px red;
+    text-decoration: underline blue 5px;
+}
+body{
+    background:radial-gradient(green,yellow,blue,pink);
+}

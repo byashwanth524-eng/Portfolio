@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" autocomplete="on" autocorrect="on " autocapitalize="on">
+<fieldset >
+<legend>Personal Details</legend>
+
+
+
+
+    <table>
+    <tr>
+        <td>
+            <label for="fname">First Name</label>
+        </td>
+        <td>
+            <input type="text" id="fname" name="fname" required placeholder="Ex:Yashwanth">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="sname">SurName</label>
+        </td>
+        <td>
+            <input type="text" id="sname" name="sname" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="mobile">Mobile Number</label>
+        </td>
+        <td>
+            <input type="tel" id="mobile" name="mobile" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="email">Email</label>
+        </td>
+        <td>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="password">Password</label>
+        </td>
+        <td>
+            <input type="password" id="password" name="password" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="confirmPassword">Confirm Password</label>
+        </td>
+        <td>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="dob">DOB</label>
+        </td>
+        <td>
+            <input type="date" id="dob" name="dob" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="age">Age</label>
+        </td>
+        <td>
+            <input type="number" id="age" name="age" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="male">Gender</label>
+        </td>
+        <td>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">MALE</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">FEMALE</label>
+
+            <input type="radio" id="others" name="gender" value="Others">
+            <label for="others">OTHERS</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="country">Select Country</label>
+        </td>
+        <td>
+            <select id="country" name="country">
+                <option value="India">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="China">CHINA</option>
+                <option value="Germany">GERMANY</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="picture">Upload Picture</label>
+        </td>
+        <td>
+            <input type="file" id="picture" name="picture" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>
+            <button type="submit">APPLY</button>
+        </td>
+    </tr>
+</table>
+</fieldset>
+
+</form>
+    
+</body>
+</html>
